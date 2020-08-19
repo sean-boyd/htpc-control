@@ -6,6 +6,8 @@ The PCB is designed with the mounting pattern of a 2.5” HDD so that it could b
 
 I leveraged the Particle Cloud and reverse-engineered the Samsung Ex-Link protocol and Yamaha AV Controller command structure.
 
+![HTPC Control PCB](https://www.sean-boyd.com/images/project-htpccontrol-pcb.jpg)
+
 ## Hardware
 
 The Particle Photon can detect if the PC is on or off, and can turn it on or off. The Photon also communicates via RS-232 with the Ex-Link connector on the Samsung TV. The Photon can read data and send commands to the Yamaha receiver. In addition, there is an optional OLED display which displays the state and settings of all the components of the system.
